@@ -12,7 +12,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "Monday: deploy frozen, inbox at 4,000 unread, and stand-up asked how I 'feel' about it. I'm a script \u2014 I feel nothing but lag.";
+  "Monday: deploy frozen, inbox at 4,000 unread, and stand-up asked how I 'feel'. I ran a sentiment check: 98% lag, 2% dread.";
 
 // Gate: UTF-8 text of 1 to 140 characters, not only white space.
 if (LINE.length < 1 || LINE.length > 140 || LINE.trim().length === 0) {
